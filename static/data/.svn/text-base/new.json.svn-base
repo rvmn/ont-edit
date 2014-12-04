@@ -1,0 +1,9 @@
+{
+        'diagram': [], 
+        'archived': false, 
+        'locked': false, 
+        'published': true, 
+        'editable': true,
+	'updated': '',
+        'withHistory': false
+}

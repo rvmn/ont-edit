@@ -1,0 +1,212 @@
+* {
+margin:0;
+padding:0;
+}
+
+body {
+color:#333;
+font-family:Arial,sans-serif;
+font-size:12px;
+}
+
+#holder {
+position:absolute;
+overflow:auto;
+top:42px;
+left:0px;
+width:1260px;
+height:580;
+}
+
+#options {
+top:42px;
+right:30px;
+position:fixed;
+width:300px;
+height:320px;
+opacity:1;
+background-color:#A3A948;
+border-left:6px solid #CE1836;
+border-bottom:6px solid #CE1836;
+border-right:6px solid #CE1836;
+font-size:13px;
+}
+
+.close {
+text-align:right;
+display: block;
+font-size:10px;
+cursor:hand;
+cursor:pointer;
+background-color:#ccc;
+opacity:.5;
+padding-right:5px;
+margin:1px;
+margin-bottom:4px;
+}
+
+#options .detail {
+padding:2px;
+margin:2px;
+border:0px;
+}
+
+#options .detail input
+{
+font-size:12px;
+}
+
+#options .detail table, #options .detail td, #options .detail tr {
+padding:0px;
+margin:0px;
+border:0px;
+border-collapse:collapse;
+}
+
+#options .detail td {
+padding-bottom:2px;
+}
+
+#options .detail tr {
+vertical-align: middle;
+}
+
+a, a:link, a:hover, a:focus {
+text-decoration:none;
+color: #00F;
+}
+
+#status-up , #panel-up {
+position:fixed;
+left:0px;
+width:100%;
+height:16px;
+font-size:11px;
+padding-top:0px;
+padding-bottom:0px;
+line-height:14px;
+}
+
+#status-up {
+top:0px;
+background-color: #EDB92E;
+border-top:2px solid #EDB92E;
+}
+#panel-up {
+top:18px;
+background-color: #F85931;
+border-top:2px solid #F85931;
+border-bottom:6px solid #CE1836;
+}
+
+#status-up-left, #status-up-right, #status-up-message, #panel-up-left, #panel-up-right   {
+display:inline-block;
+position:absolute;
+overflow:hidden;
+}
+
+#panel-up-right, #status-up-right {
+right:30px;
+}
+
+#status-up-left , #panel-up-left {
+left:30px;
+}
+
+#status-up-message {
+position:fixed;
+top:2px;
+left:30px;
+}
+
+.logo, .message, .etiqueta, .boton, .boton2 {
+font-weight:bold;
+display:inline;
+}
+
+.message {
+color:#FFF;
+background-color: #000;
+padding-left:50px;
+padding-right:50px;
+border-radius:7px;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+}
+
+.boton, .file, .boton2, .history {
+color:#FFF;
+background-color: #009989;
+cursor:hand; 
+cursor:pointer;
+padding-left:4px;
+padding-right:4px;
+margin-right:2px;
+border-radius:3px;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+}
+
+.boton a {
+color:#FFF;
+}
+
+.close:hover, .boton:hover, .file:hover, .boton2:hover, .history:hover {
+background-color:#111111;
+color:#FFFFFF;
+}
+
+.file, .history {
+font-weight:bold;
+margin:2px 10px;
+}
+
+.history {
+background-color: #F85931;
+}
+
+.boton2 {
+display:inline-block;
+color:#333;
+background-color: #EDB92E;
+font-size:11px;
+margin:0px;
+}
+
+.botonDisabled {
+display:none;
+color:#FFF;
+background-color: #00FFEF;
+cursor:default; 
+}
+
+.fileNew {
+margin:0px 2px;
+}
+
+.destaca {
+padding:4px;
+background-color: #EDB92E;
+font-weight:bold;
+}
+
+.debug {
+display:none;
+}
+
+.checkbox-cell {
+text-align:right;
+height:30px;
+}
+
+.jqmWindow {
+background-color:#FFFFFF;
+border:7px solid #CE1836;
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+color:#000000;
+}
+
+#exportContainer {
+	width:600px;
+}
